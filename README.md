@@ -18,35 +18,23 @@ To run this project, you need to have the SDL2 and SDL_ttf libraries installed o
 
 ### Install SDL2 and SDL_ttf libraries
 
-```bash
-sudo apt-get update
-sudo apt-get install libsdl2-dev libsdl2-ttf-dev
+    sudo apt-get update
+    sudo apt-get install libsdl2-dev libsdl2-ttf-dev
 
 Installation
-Clone the Repository
 
 Clone the repository to your local machine using the following command:
 
-bash
-
-git clone https://github.com/BcastEngineering/Dynamic_pi_clock.git
-cd Dynamic_pi_clock
-
-Compilation
+    git clone https://github.com/BcastEngineering/Dynamic_pi_clock.git
 
 Compile the dynamic_pi_clock.cpp file using g++:
 
-bash
-
-g++ dynamic_pi_clock.cpp -o dynamic_pi_clock -lSDL2 -lSDL2_ttf
+    cd Dynamic_pi_clock
+    g++ dynamic_pi_clock.cpp -o dynamic_pi_clock -lSDL2 -lSDL2_ttf
 
 Running the Program
 
-After compiling, run the program with the following command:
-
-bash
-
-./dynamic_pi_clock
+    ./dynamic_pi_clock
 
 Contributing
 
